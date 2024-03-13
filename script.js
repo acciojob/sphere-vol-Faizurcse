@@ -2,7 +2,7 @@
             event.preventDefault(); // Prevent form submission
 
             let r = document.getElementById('radius').value;
-            let v = (4/3) * 3.141 * (r * r * r);
+            let v = (4/3) * Math.PI * (r * r * r);
 
             document.getElementById('volume').value = v;
         } 
